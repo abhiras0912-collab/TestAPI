@@ -1,4 +1,4 @@
-# API Test Automation — Summary for Manager
+# API Test Automation — Summary 
 
 ## Overview
 This document summarizes the work performed to create an automated API test generator and runner that imports an OpenAPI/Swagger spec and executes generated Jest tests against the API (Petstore). It includes the steps performed, commands to reproduce, the prompts provided during the engagement, and the generated report locations.
