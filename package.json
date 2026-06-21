@@ -1,0 +1,24 @@
+{
+  "name": "openapi-api-tester",
+  "version": "1.0.0",
+  "description": "Automatic API tester that imports OpenAPI/Swagger specs and generates Jest tests",
+  "main": "src/test-generator.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:generated": "node src/test-generator.js && jest --runInBand",
+    "swagger:refresh": "node src/swagger-loader.js",
+    "report": "jest --json --outputFile=reports/results.json"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^2.1.1",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-html-reporter": "^3.4.0"
+  }
+}

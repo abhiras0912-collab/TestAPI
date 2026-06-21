@@ -1,0 +1,10 @@
+{
+  "numTotalTests": 3,
+  "numPassedTests": 2,
+  "numFailedTests": 1,
+  "testResults": [
+    { "name": "GET /pet/findByStatus - positive", "status": "passed" },
+    { "name": "GET /pet/{petId} - positive", "status": "passed" },
+    { "name": "GET /pet/{petId} - negative invalid id", "status": "failed" }
+  ]
+}
